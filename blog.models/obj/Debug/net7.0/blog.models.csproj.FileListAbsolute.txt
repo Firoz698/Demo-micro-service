@@ -1,0 +1,12 @@
+G:\Demo Microservice testing\Demo\blog.models\bin\Debug\net7.0\blog.models.deps.json
+G:\Demo Microservice testing\Demo\blog.models\bin\Debug\net7.0\blog.models.dll
+G:\Demo Microservice testing\Demo\blog.models\bin\Debug\net7.0\blog.models.pdb
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\blog.models.csproj.AssemblyReference.cache
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\blog.models.GeneratedMSBuildEditorConfig.editorconfig
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\blog.models.AssemblyInfoInputs.cache
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\blog.models.AssemblyInfo.cs
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\blog.models.csproj.CoreCompileInputs.cache
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\blog.models.dll
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\refint\blog.models.dll
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\blog.models.pdb
+G:\Demo Microservice testing\Demo\blog.models\obj\Debug\net7.0\ref\blog.models.dll

@@ -1,0 +1,31 @@
+version: '3.4'
+
+
+networks:
+  backend:
+
+services:
+  customerdb:
+    container_name: customer-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=DESKTOP-CR084RJ\SQLEXPRESS
+      - SA_PASSWORD=welt12#
+    networks:
+     - backend
+    ports:
+     - 8001:1433
+  customer.api:
+    container_name: customer-api
+    image: ${DOCKER_REGISTRY-}customerapi
+    build:
+      context: .
+      dockerfile: Customer.api/Dockerfile
+    networks:
+      - backend
+    ports:
+     - 8002:80
+    environment:
+     - DB_HOST=customerdb
+     - DB_NAME=customer
+     - DB_SA_PASSWORD=welt12#
